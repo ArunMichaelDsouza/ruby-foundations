@@ -41,5 +41,8 @@ puts "hello.capitalize : #{"hello".capitalize}"
 puts "hello.upcase : #{"hello".upcase}"
 puts "Hello.downcase : #{"Hello".downcase}"
 
+name = "Arun"
+puts "name.include?('run') : #{name.include?("run")}"
+
 
 
