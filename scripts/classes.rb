@@ -50,6 +50,19 @@ access2_obj.id = 1002 # Set value
 access2_id = access2_obj.id # Get value
 puts "id : #{access2_id}"
 
+# Class inheritance
+class Parent 
+	def show
+		puts "Message from parent"
+	end
+end
+
+class Child < Parent # Inherit from parent
+end
+
+child_obj = Child.new # Create child object
+child_obj.show() # Access parent method
+
 
 
 
