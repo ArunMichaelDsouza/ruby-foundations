@@ -44,5 +44,9 @@ puts "Hello.downcase : #{"Hello".downcase}"
 name = "Arun"
 puts "name.include?('run') : #{name.include?("run")}"
 
+# Symbols
+:symbol
+puts "Symbol : #{:symbol}"
+
 
 
