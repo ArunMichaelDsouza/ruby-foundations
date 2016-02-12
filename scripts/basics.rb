@@ -48,5 +48,10 @@ puts "name.include?('run') : #{name.include?("run")}"
 :symbol
 puts "Symbol : #{:symbol}"
 
+# Arrays
+array = Array.new
+array = [1,2,3,4]
+puts array
+puts array.length
 
 
