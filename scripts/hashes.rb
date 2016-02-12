@@ -18,3 +18,9 @@ hash.each do |key, value|
 	puts "#{key} : #{value}"
 end
 
+# Find key in hash
+puts hash.has_key?("id")
+
+# Find value in hash
+puts hash.has_value?(1234)
+
