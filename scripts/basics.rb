@@ -11,11 +11,11 @@ puts "New value : #{new_val}"
 
 # Type casting
 puts "Enter number"
-num = gets.to_i
+num = gets.to_i # Convert to integer
 puts "Double is : #{num * 2}"
 
 int = 3
-puts "This is a number : " + int.to_s
+puts "This is a number : " + int.to_s # Convert to string
 
 =begin
 	Multiline comment
@@ -42,7 +42,7 @@ puts "hello.upcase : #{"hello".upcase}"
 puts "Hello.downcase : #{"Hello".downcase}"
 
 name = "Arun"
-puts "name.include?('run') : #{name.include?("run")}"
+puts "name.include?('run') : #{name.include?("run")}" # Substring in string
 
 # Symbols
 :symbol
