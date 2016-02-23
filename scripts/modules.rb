@@ -1,5 +1,5 @@
 # Require module
-require_relative "modules/module1"
+require "./modules/module1" # Equivalent to require_relative "modules/module1" 
 
 class ModClass1
 	include Module1 # Include module in class
